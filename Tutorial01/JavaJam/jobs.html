@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaJam Coffee House Jobs</title>
+</head>
+<body>
+    <header>
+        <h1>
+            JavaJam Coffee House
+        </h1>
+        <a href = "index.html">Home</a>
+        <a href = "menu.html">Menu</a>
+        <a href = "music.html">Music</a>
+        <a href = "jobs.html">Jobs</a>
+    </header>
+
+    <main>
+        <h2>Jobs at JavaJam</h2>
+        <p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterisk (*)</p>
+        <form method = "post" action = "http://webdevbasics.net/scripts/javajam8.php">
+            <label for = "name">*Name</label>
+            <br>
+            <input type = "text" id = "name">
+            <br>
+            <label for = "email">*Email</label>
+            <br>
+            <input type = "text" id = "email">
+            <br>
+            <label for = "experience">*Experience</label>
+            <br>
+            <textarea></textarea>
+            <br>
+            <label for = "position">Select job position : </label>
+            
+            <select name = "position">
+                <option  value = "barista">Barista</option>
+            </select>
+            <br>
+            <label for = "interview">Preferred Interview Date and Time :</label>
+            <br>
+            <input type = "datetime">
+            <br>
+            <label for ="photo">Upload your photo :</label>
+            <input type = "file">
+            <br>
+            <button>Apply Now</button>
+        </form>
+    </main>
+
+    <br>
+    <footer>
+        <i>
+            Copyright © 2021 JavaJam Coffee House
+        </i>
+        <br>
+        
+        <a target = "_blank" href = "https://www.youtube.com/"><i>karweng@lim.com</i></a>
+
+    </footer>
+</body>
+</html>
